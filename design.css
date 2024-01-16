@@ -379,3 +379,54 @@ img-2{
     font-size: 1rem;
     font-weight: 400;
 }
+
+/**---------------------------------Newsletter-----------**/
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    
+}
+
+.newsletter-text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newsletter-text-1 h4 {
+    color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+newsletter-text-1 P {
+    color:#5A5A5D;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+hr {
+    width: 100%;
+    color: #5A5A5D;
+    margin-bottom: 15px;
+}
+.newsletter-input {
+    padding: 15px;
+}
+
+.button-3 {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem; 
+    color: white; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+}
+.newsletter-img {
+    width: 672px;
+    height: 422px;
+}
+
