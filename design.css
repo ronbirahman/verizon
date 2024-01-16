@@ -91,3 +91,50 @@ nav li a {
     list-style: none;
     padding-left: 30px;
 }
+
+.explore-form-list li {
+    font-size: 1.2rem; 
+    color: #13131880;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.button-1 {
+    font-size: 1.2rem; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+}
+
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+}
+
+.popular-tours-txt {
+
+}
+
+.popular-tours-txt-1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.popular-tours-list {
+    font-size: 1rem; 
+    font-weight: 400px; 
+    color: rgba(19, 19, 24, 0.70);
+}
+.button-2 {
+    font-size: 1.2rem; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none;
+}
+
+
