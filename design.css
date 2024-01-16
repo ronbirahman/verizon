@@ -296,5 +296,39 @@ img-2{
 
 /**---------------------------------Why Choose US-----------**/
 
+.choose-us {
+    display: flex;
+    flex-direction: column;
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    align-items: center;
+}
 
+.choose-us-text-1{
+    font-size: 3rem;
+    font-weight: 800;
+    border: 1px solid yellow;
+    color: #131318;
+    text-align: center;
+
+}
+
+.choose-us-text-2 {
+    font-size: 1rem; 
+    font-weight: 400px; 
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+
+}
+
+.choose-us-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+}
+.choose-us-box-row-1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid yellow;
+}
 
