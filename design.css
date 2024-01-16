@@ -430,3 +430,50 @@ hr {
     height: 422px;
 }
 
+/**---------------------------------Footer-----------**/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    align-items: center;
+
+}
+
+.footer-img {
+    display: flex;
+    gap: 20px;
+}
+.footer-img > h3 {
+    font-size: 2rem;
+    color: #131318;
+    font-weight: 800;
+}
+.footer-text-1 {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 760px;
+    margin-top: 50px;
+}
+
+.footer-icon {
+    margin-left: 570px ;
+    margin-right: 570px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-icon-t {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+.footer-text-2 {
+    margin-top: 50px;
+}
+
