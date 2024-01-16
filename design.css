@@ -485,7 +485,10 @@ hr {
     justify-content: space-between;
     gap: 50px;
     position: relative;
+}
 
+.simple-perfect-text {
+    border: 1px solid blue;
 }
 .simple-perfect-txt-1 {
     font-size: 2.5rem;
@@ -515,9 +518,75 @@ hr {
 
 .simple-perfect-img {
     position: relative;
+    justify-content: right;
+    border: 1px solid red;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.mountain-img {
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+
 }
 
 .simple-perfect-img-txt {
     position: absolute;
-    top: 50;
+    top: 110px;
+    left:90px ;
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+    width: 300px;
+}
+
+.simple-perfect-icon-row {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.simple-perfect-row-1 {
+    display: flex;
+    position: absolute;
+    top: 270px;
+}
+
+.simple-perfect-row-2 {
+    display: flex;
+    position: absolute;
+    top: 270px;
+    left: 300px;
+}
+
+.simple-perfect-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.status-bar {
+   
+    top:200px;
+    display: flex;
+    flex-direction: column;
+}
+.status-bar-1 {
+    border: 1px solid black;
+    width:92%; 
+    height: 2px; 
+    background-color: black;
+    margin-left: 17px;
+    position: absolute;
+    top: 320px;
+}
+.status-bar-2 {
+    border: 1px solid orange ;
+    width:55%; 
+    height: 2px; 
+    background-color: orange;
+    margin-left: 17px;
+    position: absolute;
+    top: 320px;
 }
