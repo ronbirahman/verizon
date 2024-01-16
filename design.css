@@ -476,4 +476,48 @@ hr {
 .footer-text-2 {
     margin-top: 50px;
 }
+/**---------------------------------Simple-perfect-----------**/
 
+.simple-perfect {
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+
+}
+.simple-perfect-txt-1 {
+    font-size: 2.5rem;
+    color: #131318;
+    font-weight: 800;
+}
+
+.simple-perfect-txt-2{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.simple-perfect-list {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.button-4 {
+    font-size: 1.2rem; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+}
+
+.simple-perfect-img {
+    position: relative;
+}
+
+.simple-perfect-img-txt {
+    position: absolute;
+    top: 50;
+}
