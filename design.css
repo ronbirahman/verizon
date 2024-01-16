@@ -380,102 +380,6 @@ img-2{
     font-weight: 400;
 }
 
-/**---------------------------------Newsletter-----------**/
-
-.newsletter {
-    display: flex;
-    justify-content: space-between;
-    padding: 53px 127px 53px 127px;
-    border: 5px solid black;
-    
-}
-
-.newsletter-text-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.newsletter-text-1 h4 {
-    color: #131318;
-    font-size: 1.8rem;
-    font-weight: 800;
-}
-
-newsletter-text-1 P {
-    color:#5A5A5D;
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
-hr {
-    width: 100%;
-    color: #5A5A5D;
-    margin-bottom: 15px;
-}
-.newsletter-input {
-    padding: 15px;
-}
-
-.button-3 {
-    padding: 15px;
-    text-align: center;
-    font-size: 1.2rem; 
-    color: white; 
-    border-radius: 8px;; 
-    background-color: #FF5400;
-    border-style: none; 
-}
-.newsletter-img {
-    width: 672px;
-    height: 422px;
-}
-
-/**---------------------------------Footer-----------**/
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 53px 127px 53px 127px;
-    border: 5px solid black;
-    align-items: center;
-
-}
-
-.footer-img {
-    display: flex;
-    gap: 20px;
-}
-.footer-img > h3 {
-    font-size: 2rem;
-    color: #131318;
-    font-weight: 800;
-}
-.footer-text-1 {
-    color: #5A5A5D;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-    width: 760px;
-    margin-top: 50px;
-}
-
-.footer-icon {
-    margin-left: 570px ;
-    margin-right: 570px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-.footer-icon-t {
-    width: 40px;
-    height: 40px;
-    padding: 20px;
-}
-.footer-text-2 {
-    margin-top: 50px;
-}
 /**---------------------------------Simple-perfect-----------**/
 
 .simple-perfect {
@@ -589,4 +493,135 @@ hr {
     margin-left: 17px;
     position: absolute;
     top: 320px;
+}
+/**---------------------------------Newsletter-----------**/
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    
+}
+
+.newsletter-text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newsletter-text-1 h4 {
+    color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+newsletter-text-1 P {
+    color:#5A5A5D;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+hr {
+    width: 100%;
+    color: #5A5A5D;
+    margin-bottom: 15px;
+}
+.newsletter-input {
+    padding: 15px;
+}
+
+.button-3 {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem; 
+    color: white; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+}
+.newsletter-img {
+    width: 672px;
+    height: 422px;
+}
+
+/**---------------------------------Footer-----------**/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    align-items: center;
+
+}
+
+.footer-img {
+    display: flex;
+    gap: 20px;
+}
+.footer-img > h3 {
+    font-size: 2rem;
+    color: #131318;
+    font-weight: 800;
+}
+.footer-text-1 {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 760px;
+    margin-top: 50px;
+}
+
+.footer-icon {
+    margin-left: 570px ;
+    margin-right: 570px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-icon-t {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+.footer-text-2 {
+    margin-top: 50px;
+}
+/**---------------------------------Deals & Discounts-----------**/
+
+.deals-discounts {
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deals-icon-text {
+    display: flex;
+    width: 580px;
+    height: 360px;
+    border: 1px solid red;
+    position: relative;
+ 
+}
+
+.deals-icon-1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: -90px;
+    left: -60px;
+}
+.deals-icon-2{
+    width: 80px;
+    height: 80px;
+}
+.deals-icon-3{
+    width: 80px;
+    height: 80px;
 }
