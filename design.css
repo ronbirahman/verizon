@@ -428,6 +428,134 @@ img-2{
     font-weight: 400;
 }
 
+/**---------------------------------Deals & Discounts-----------**/
+
+.deals-discounts {
+    padding: 53px 127px 53px 127px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.deals-discounts-text-1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.deals-discounts-text-2{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 48rem;
+}
+
+.deals-1{
+    position: relative;
+    margin-top: 20px;
+}
+.deals-opacity-1 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    border: 1px solid red;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 16px;
+}
+
+.deals-opacity-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    border: 1px solid red;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 16px;
+}
+
+.deals-icon-txt {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    width: 23rem;
+    height: 1rem;
+    background-color: rgba(255, 255, 255, 0.80); 
+
+}
+
+.deals-icon{
+    width: 100%;
+    height: 100%;
+}
+.deals-txt{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+.deals-txt-santorini {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.deals-txt-des{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 25rem;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.deals-txt-prc {
+    color: #FF5400;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.button-5{
+    font-size: 1.2rem; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+    width: 10rem;
+    margin-top: 1rem;
+}
+
+.button-6{
+    font-size: 1.2rem; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+
+
+
 /**---------------------------------Simple-perfect-----------**/
 
 .simple-perfect {
@@ -556,11 +684,14 @@ img-2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .newsletter-text-1 h4 {
     color: #131318;
     font-size: 1.8rem;
     font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 newsletter-text-1 P {
@@ -573,6 +704,7 @@ hr {
     width: 100%;
     color: #5A5A5D;
     margin-bottom: 15px;
+  
 }
 .newsletter-input {
     padding: 15px;
@@ -586,6 +718,7 @@ hr {
     border-radius: 8px;; 
     background-color: #FF5400;
     border-style: none; 
+    margin-bottom: 20px;
 }
 .newsletter-img {
     width: 672px;
@@ -638,129 +771,3 @@ hr {
 .footer-text-2 {
     margin-top: 50px;
 }
-/**---------------------------------Deals & Discounts-----------**/
-
-.deals-discounts {
-    padding: 53px 127px 53px 127px;
-    border: 5px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.deals-discounts-text-1{
-    color: #131318;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-
-.deals-discounts-text-2{
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 400;
-    width: 48rem;
-}
-
-.deals-1{
-    position: relative;
-    margin-top: 20px;
-}
-.deals-opacity-1 {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    border: 1px solid red;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: absolute;
-    top: 80px;
-    right: 60px;
-    background-color: rgba(255, 255, 255, 0.80);
-    border-radius: 16px;
-}
-
-.deals-opacity-2 {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    border: 1px solid red;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: absolute;
-    top: 80px;
-    left: 60px;
-    background-color: rgba(255, 255, 255, 0.80);
-    border-radius: 16px;
-}
-
-.deals-icon-txt {
-    display: flex;
-    border: 1px solid red;
-    justify-content: space-between;
-    width: 23rem;
-    height: 1rem;
-    background-color: rgba(255, 255, 255, 0.80); 
-
-}
-
-.deals-icon{
-    width: 100%;
-    height: 100%;
-}
-.deals-txt{
-    font-size: 14px;
-    font-weight: 400;
-    color: #5A5A5D;
-}
-.deals-txt-santorini {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-}
-.deals-txt-des{
-    color: #5A5A5D;
-    font-size: 1rem;
-    font-weight: 400;
-    width: 25rem;
-    text-align: justify;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-}
-.deals-txt-prc {
-    color: #FF5400;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-}
-.button-5{
-    font-size: 1.2rem; 
-    color: white;
-    padding: 10px 15px; 
-    border-radius: 8px;; 
-    background-color: #FF5400;
-    border-style: none; 
-    width: 10rem;
-    margin-top: 1rem;
-}
-
-.button-6{
-    font-size: 1.2rem; 
-    color: white;
-    padding: 10px 15px; 
-    border-radius: 8px;; 
-    background-color: #FF5400;
-    border-style: none; 
-    width: 15rem;
-    margin-top: 1rem;
-}
-
-
