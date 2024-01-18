@@ -1199,6 +1199,301 @@ hr {
 
 
 
+    /**----------Responsive-----------------------Deals & Discounts-----------**/
+
+    .deals-discounts {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .deals-discounts-text-1{
+        color: #131318;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin: 0px 0px;
+    }
+    
+    .deals-discounts-text-2{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 340px;
+    }
+    
+    .deals-1{
+        position: relative;
+        margin-top: 0px;
+        width: 340px;
+        height: 500px;
+        overflow: hidden;
+        border-radius: 16px;
+        margin-bottom: 10px;
+        
+    }
+    .deals-1-img {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: contain;
+    }
+    .deals-opacity-1 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        background-color: rgba(255, 255, 255, 0.80);
+        border-radius: 16px;
+        right: 12px;
+        
+    }
+    
+    .deals-opacity-2 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 12px;
+        background-color: rgba(255, 255, 255, 0.80);
+        border-radius: 16px;
+    }
+    
+    .deals-icon-txt {
+        display: flex;
+        justify-content: space-around;
+        width: 280px;
+        height: 1rem;
+        background-color: rgba(255, 255, 255, 0.80); 
+    
+    }
+    
+    .deals-icon{
+        width: 100%;
+        height: 100%;
+    }
+    .deals-txt{
+        font-size: 10px;
+        font-weight: 400;
+        color: #5A5A5D;
+    }
+    .deals-txt-santorini {
+        color: #131318;
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+    .deals-txt-des{
+        color: #5A5A5D;
+        font-size: 0.7rem;
+        font-weight: 400;
+        width: 280px;
+        text-align: justify;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    .deals-txt-prc {
+        color: #FF5400;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    .button-5{
+        font-size: 1rem; 
+        color: white;
+        padding: 10px 15px; 
+        border-radius: 8px;; 
+        background-color: #FF5400;
+        border-style: none; 
+        width: 8rem;
+        margin-top: 1rem;
+    }
+    
+    .button-6{
+        font-size: 1rem; 
+        color: white;
+        padding: 10px 15px; 
+        border-radius: 8px;; 
+        background-color: #FF5400;
+        border-style: none; 
+        width: 12rem;
+        margin-top: 2px;
+    }
+
+    /**----------------Resposnsive-----------------Simple-perfect-----------**/
+
+    .simple-perfect {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+    }
+    
+    .simple-perfect-text {
+     
+    }
+    .simple-perfect-txt-1 {
+        font-size: 1.5rem;
+        color: #131318;
+        font-weight: 800;
+        margin: 5px 0px;
+    }
+    
+    .simple-perfect-txt-2{
+        color: #5A5A5D;
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin: 5px 0px;
+    }
+    .simple-perfect-list {
+        color: #131318;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .button-4 {
+        font-size: 1rem; 
+        color: white;
+        padding: 10px 15px; 
+        border-radius: 8px;; 
+        background-color: #FF5400;
+        border-style: none; 
+    }
+    
+    .simple-perfect-img {
+        position: relative;
+        justify-content: right;
+        height: 180px;
+        margin-top: 0px;
+        border-radius: 15px;
+    }
+    
+    .mountain-img {
+        width: 340px;
+        height:180px;
+        border-radius: 15px;
+    
+    }
+    
+    .simple-perfect-img-txt {
+        position: absolute;
+        top: 50px;
+        left:30px ;
+        font-size: 1.2rem;
+        color: red;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .simple-perfect-icon-row {
+        display: flex;
+        width: 340px;
+       
+    }
+    
+    .simple-perfect-row-1 {
+        display: flex;
+        position: absolute;
+        top: 130px;
+    }
+    
+    .simple-perfect-row-2 {
+        display: flex;
+        position: absolute;
+        top: 130px;
+        left: 200px;
+    }
+    .simple-perfect-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .status-bar {
+    
+        top: 140px;
+        display: flex;
+        flex-direction: column;
+    }
+    .status-bar-1 {
+        border: 1px solid black;
+        width:92%; 
+        height: 2px; 
+        background-color: black;
+        margin-left: 17px;
+        position: absolute;
+        top: 165px;
+    }
+    .status-bar-2 {
+        border: 1px solid orange ;
+        width:55%; 
+        height: 2px; 
+        background-color: orange;
+        margin-left: 17px;
+        position: absolute;
+        top: 165px;
+    }
+    /**----------------Responsive-----------------Newsletter-----------**/
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.newsletter-text-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.newsletter-text-1 h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+newsletter-text-1 P {
+    color:#5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+hr {
+    width: 100%;
+    color: #5A5A5D;
+    margin-bottom: 10px;
+  
+}
+.newsletter-input {
+    padding: 15px;
+}
+
+.button-3 {
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem; 
+    color: white; 
+    border-radius: 8px;; 
+    background-color: #FF5400;
+    border-style: none; 
+    margin-bottom: 10px;
+}
+.newsletter-img {
+    
+   
+}
+
+.news-img {
+    width: 340px;
+    height: 250px;
+}
+    
 
 
 }
