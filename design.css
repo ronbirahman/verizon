@@ -107,7 +107,7 @@ nav li a {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
-    top: 24.6rem;
+    top: 25rem;
     left: 27rem;
 }
 
@@ -115,7 +115,7 @@ nav li a {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
-    top: 24.6rem;
+    top: 25rem;
     left: 44rem;
 }
 
@@ -123,15 +123,15 @@ nav li a {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
-    top: 24.6rem;
+    top: 25rem;
     left: 62rem;
 }
 .find-now{
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
-    top: 24.6rem;
-    left: 67.7rem;
+    top: 25rem;
+    left: 66.8rem;
 }
 .explore-form > ul {
     display: flex;
@@ -394,6 +394,7 @@ img-2{
     border: 1px solid rgba(251, 181, 99, 0.20);
     background-color: rgba(251, 181, 99, 0.05);
     margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 24px ;
     padding-left: 15px;
 }
@@ -403,6 +404,7 @@ img-2{
     border: 1px solid rgba(41, 206, 246, 0.20);
     background-color: rgba(41, 206, 246, 0.05);
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 15px;
 }
 
@@ -859,7 +861,7 @@ hr {
     .explore-form {
         position: absolute; 
         top: 20%;
-        left: 8%;
+        left: 6%;
     }
     .explore-form-list{
         display: flex;
@@ -914,8 +916,8 @@ hr {
         position: absolute;
         width: 1rem;
         height: 1rem;
-        top: 27.2rem;
-        left: 8.3rem;
+        top: 27.3rem;
+        left: 7.9rem;
     }
 
 
