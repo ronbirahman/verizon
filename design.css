@@ -236,7 +236,6 @@ nav li a {
     display: flex;
     height: 300px;
     width: 1150px;
- 
     justify-content: space-between;
     margin-top: 20px;
     position: relative;
@@ -821,7 +820,7 @@ hr {
         height: 480px;    
     }
     .explore-img{
-         background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+        background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
         min-height: 100%;
         min-width: 100%;
     }
@@ -909,5 +908,297 @@ hr {
     }
 
 
-}
+/**----------------------Responsive-----------Our Popular Tours-----------**/
 
+    .popular-tours {
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .popular-tours-txt {
+
+    }
+
+    .popular-tours-img{
+        height: 21rem;
+        margin-top: 10px;
+    }
+    .popular-tours-img-1{
+        height: 100%;
+        width: 100%;
+    }
+
+    .popular-tours-txt-1 {
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: left;
+        margin: 10px 0;
+    }
+    .popular-tours-main-text{
+        font-size: 1rem; 
+        font-weight: 300px; 
+        color: rgba(19, 19, 24, 0.70);
+        margin: 10px 0;
+        text-align: left;
+    }
+    .popular-tours-list {
+        font-size: 1rem; 
+        font-weight: 400px; 
+        color: rgba(19, 19, 24, 0.70);
+        padding-left: 10px;
+    }
+    .button-2 {
+        font-size: 1.2rem; 
+        color: white;
+        padding: 10px 15px; 
+        border-radius: 8px;; 
+        background-color: #FF5400;
+        border-style: none;
+        margin: 10px 0;
+    }
+
+/**--------------Responsive-------------Choose Your Destination-----------**/
+
+    .destination {
+        flex-direction: column;
+        padding: 10px;
+        width: 340px;
+    }
+
+    .destination-txt-1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #131318;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0px 0px;
+    }
+
+    .destination-txt-2 {
+        font-size: 1rem; 
+        font-weight: 400px; 
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        width: 300px;
+        margin: 0px 0px;
+    }
+
+    .destination-flex {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .destination-row-1 {
+        display: flex;
+        flex-direction: column;
+        width: 340px; 
+        gap: 10px;
+        position: relative;
+       
+    }
+    .img-1 {
+        width: 340px;
+        height: 165px;    
+    }
+    .img-2 {
+        width: 340px;
+        height: 165px;
+    }
+
+    .img-1-txt-1 {
+        position: absolute;
+        top: 45px;
+        left: 120px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+    
+    .img-2-txt-2 {
+        position: absolute;
+        top: 220px;
+        left: 110px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+
+    .destination-row-2 {
+        display: flex;
+        flex-direction: column;
+        width: 340px; 
+        gap: 10px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .img-3 {
+        width: 340px;
+        height: 165px;    
+    }
+    .img-4 {
+        width: 340px;
+        height: 165px;
+    }
+
+    .img-5 {
+        width: 340px;
+        height: 165px;
+    }
+
+    .img-3-txt-3 {
+        position: absolute;
+        top: 45px;
+        left: 110px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+    
+    .img-4-txt-4 {
+        position: absolute;
+        top: 210px;
+        left: 90px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+    .img-5-txt-5 {
+        position: absolute;
+        top: 390px;
+        left: 140px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+
+    .destination-row-3 {
+        display: flex;
+        flex-direction: column;
+        width: 340px; 
+        gap: 10px;
+        position: relative;
+        margin-top: 50px;
+
+    }
+
+    .img-6 {
+        width: 340px;
+        height: 165px;
+    }
+
+    .img-7 {
+        width: 340px;
+        height: 165px;
+    }
+
+    .img-6-txt-6 {
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+    .img-7-txt-7 {
+        position: absolute;
+        top: 210px;
+        left: 120px;
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: 800;
+    } 
+
+    /**------------------Responsive---------------Why Choose US-----------**/
+
+    .choose-us {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .choose-us-text-1{
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #131318;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .choose-us-text-2 {
+        font-size: 1rem; 
+        font-weight: 400px; 
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        width: 340px;
+    }
+
+    .choose-us-box {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        align-items: center;
+        justify-content: center;
+    }
+    .choose-us-box-row-1{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small-box-1 {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background-color: rgba(251, 181, 99, 0.05);
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    
+    .small-box-2 {
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background-color: rgba(41, 206, 246, 0.05);
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    
+    .small-box-3 {
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background-color: rgba(233, 68, 68, 0.05);
+        margin: 10px 0px;
+    
+    }
+    
+    .hotel-img, .map-img{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+    
+    .price-img {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+    
+    .box-row-1-text-1 {
+        color: #131318;
+        font-size: 1rem;
+        font-weight: 800;    
+    }
+    .box-row-1-text-2 {
+        color: #5A5A5D;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+
+
+
+}
